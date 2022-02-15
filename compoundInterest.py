@@ -23,21 +23,9 @@ def calculateCompoundInterest():
                            )
 
 
-    
-    print("Principle (amount):",str(client_one_principal))
-    print("Time:",str(client_one_time))
-    print("Rate:",str(client_one_rate))
     print("Compound Interest:",str(client_one_CI))
-    print("---")
-    print("Principle (amount):",round(client_two_principal))
-    print("Time:",(client_two_time))
-    print("Rate:",(client_two_rate))
-    print("Compound Interest:",client_two_CI)
-    print("---")
-    print("Principle (amount):",round(client_three_principal))
-    print("Time:",(client_three_time))
-    print("Rate:",client_three_rate)
-    print("Compound Interest:",client_three_CI)
+    print("Compound Interest:",str(client_two_CI))
+    print("Compound Interest:",str(client_three_CI))
  #print("Compound Interest: "+str(intrest))
 
     # end assignment
