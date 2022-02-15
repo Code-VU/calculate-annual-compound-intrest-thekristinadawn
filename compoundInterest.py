@@ -19,13 +19,15 @@ def calculateCompoundInterest():
     client_two_amount = client_two_principal*(pow((1+client_two_rate / 100), client_two_time))
     client_two_CI = round(client_two_amount - client_two_principal,2)
     client_three_amount = client_three_principal*(pow((1+client_three_rate / 100), client_three_time))
-    client_three_CI = round(client_three_amount - client_three_principal,2
-                           )
+    client_three_CI = round(client_three_amount - client_three_principal,2)
 
 
     print("Compound Interest:",str(client_one_CI))
+    print("---")
     print("Compound Interest:",str(client_two_CI))
+    print("---")
     print("Compound Interest:",str(client_three_CI))
+    
  #print("Compound Interest: "+str(intrest))
 
     # end assignment
